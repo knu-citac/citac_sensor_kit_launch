@@ -1,11 +1,11 @@
 sensor_kit_base_link:
-  camera0/camera_link:
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    roll: 0.0
-    pitch: 0.0
-    yaw: 0.0
+  # camera0/camera_link:
+  #   x: 0.0
+  #   y: 0.0
+  #   z: 0.0
+  #   roll: 0.0
+  #   pitch: 0.0
+  #   yaw: 0.0
   # camera1/camera_link:
   #   x: -0.10731
   #   y: -0.56343

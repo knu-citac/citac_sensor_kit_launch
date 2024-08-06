@@ -25,7 +25,7 @@
     <xacro:property name="calibration" value="${xacro.load_yaml('$(arg config_dir)/sensor_kit_calibration.yaml')}"/>
 
     <!-- lidar -->
-    <xacro:OS1-64 parent="sensor_kit_base_link" name="os_sensor" topic="/points" hz="10" samples="220" gpu="$(arg gpu)">
+    <xacro:OS1-64 parent="sensor_kit_base_link" name="os_sensor" topic="/ouster/points" hz="10" samples="220" gpu="$(arg gpu)">
       <origin
         xyz="${calibration['sensor_kit_base_link']['os_sensor_base_link']['x']}
              ${calibration['sensor_kit_base_link']['os_sensor_base_link']['y']}

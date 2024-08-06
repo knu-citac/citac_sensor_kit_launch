@@ -9,7 +9,7 @@
   <group>
     <push-ros-namespace namespace="lidar"/>
 
-    <group>
+    <!-- <group>
       <push-ros-namespace namespace="top"/>
       <include file="$(find-pkg-share common_sensor_launch)/launch/velodyne_VLS128.launch.xml">
         <arg name="max_range" value="250.0"/>
@@ -80,6 +80,6 @@
       <arg name="use_intra_process" value="true"/>
       <arg name="use_multithread" value="true"/>
       <arg name="pointcloud_container_name" value="$(var pointcloud_container_name)"/>
-    </include>
+    </include> -->
   </group>
 </launch>
